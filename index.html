@@ -7,6 +7,20 @@
     <title>Birthday Hunt</title>
 </head>
 <body>
-    <!-- Your content goes here -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var options = {
+            strings: ['Your clue 1 text', 'Your clue 2 text', '...'],
+            typeSpeed: 50,
+            backSpeed: 25,
+            loop: true,
+        };
+
+        var typed = new Typed('.matrix-text', options);
+    });
+</script>
+<div class="matrix-text"></div>
+
 </body>
 </html>
